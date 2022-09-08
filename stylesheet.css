@@ -1,1 +1,79 @@
+.card-layout {
+  background-color: red;
+  width: 400px;
+  height: 600px;
+  border-radius: 25px 25px 0 0;
+}
 
+.img-header {
+  width: 400px;
+  height: 170px;
+  border-radius: 20px 20px 0 0;
+}
+
+.card-main {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.text-middle,
+.text-header,
+.cancel-order {
+  text-align: center;
+}
+
+.annual-plan {
+  background-color: grey;
+  height: 80px;
+  margin-left: 40px;
+  margin-right: 40px;
+  border-radius: 10px;
+  position: relative;
+}
+
+.music-icon {
+  left: 20px;
+  position: absolute;
+  bottom: 15px;
+}
+
+.annual-header {
+  position: absolute;
+  bottom: 35px;
+  left: 85px;
+}
+
+.price {
+  position: absolute;
+  bottom: 10px;
+  left: 85px;
+}
+
+.change {
+  position: absolute;
+  right: 10px;
+  bottom: 15px;
+}
+
+.annual-header,
+.price,
+.cancel-order,
+.change {
+  font-size: 16px;
+}
+
+.button {
+  margin-top: 30px;
+  width: 320px;
+  height: 40px;
+  margin-left: 40px;
+  margin-right: 40px;
+  border-radius: 15px;
+  border: none;
+  color: white;
+  background-color: hsl(245, 75%, 52%);
+}
+.cancel-order {
+  margin-top: 35px;
+}
