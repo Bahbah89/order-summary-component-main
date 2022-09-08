@@ -1,8 +1,17 @@
+body {
+  background-color: hsl(225, 100%, 94%);
+}
+
+.background {
+  position: absolute;
+  z-index: -1;
+}
+
 .card-layout {
-  background-color: red;
+  background-color: white;
   width: 400px;
-  height: 600px;
-  border-radius: 25px 25px 0 0;
+  height: 550px;
+  border-radius: 25px 25px 20px 20px;
 }
 
 .img-header {
@@ -24,7 +33,7 @@
 }
 
 .annual-plan {
-  background-color: grey;
+  background-color: hsl(225, 100%, 98%);
   height: 80px;
   margin-left: 40px;
   margin-right: 40px;
@@ -46,7 +55,7 @@
 
 .price {
   position: absolute;
-  bottom: 10px;
+  bottom: 5px;
   left: 85px;
 }
 
@@ -69,10 +78,11 @@
   height: 40px;
   margin-left: 40px;
   margin-right: 40px;
-  border-radius: 15px;
+  border-radius: 10px;
   border: none;
   color: white;
   background-color: hsl(245, 75%, 52%);
+  box-shadow: 0px 20px 10px hsl(225, 100%, 94%);
 }
 .cancel-order {
   margin-top: 35px;
